@@ -9,6 +9,8 @@ int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
 
+    // variáveis separadas por estados
+
     int populacao_a[4];
     int area_a[4];
     int pib_a[4];
@@ -53,7 +55,17 @@ int main() {
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
 
-    printf("Insira os dados do estado A.\n");
+    //
+    // Apresentação
+    //
+
+    printf("Bem-vindo ao jogo Super Trunfo, antes de começar a jogar iremos primeiro criar as cartas do jogo.\n");
+
+    //
+    // Entrada de dados para as quatro cidades do estado A
+    //
+
+    printf("\nInsira os dados do estado A.\n");
 
     printf("\nInsira a quantidade de população da cidade 1: ");
     scanf("%d", &populacao_a[0]);
@@ -92,10 +104,10 @@ int main() {
     scanf("%d", &p_turisticos_a[3]);
 
     //
-    //
+    // Entrada de dados para as quatro cidades do estado B
     //
 
-    printf("Insira os dados do estado B.\n");
+    printf("\nInsira os dados do estado B.\n");
 
     printf("\nInsira a quantidade de população da cidade 1: ");
     scanf("%d", &populacao_b[0]);
@@ -134,10 +146,10 @@ int main() {
     scanf("%d", &p_turisticos_b[3]);
 
     //
-    //
+    // Entrada de dados para as quatro cidades do estado C
     //
 
-    printf("Insira os dados do estado C.\n");
+    printf("\nInsira os dados do estado C.\n");
 
     printf("\nInsira a quantidade de população da cidade 1: ");
     scanf("%d", &populacao_c[0]);
@@ -176,10 +188,10 @@ int main() {
     scanf("%d", &p_turisticos_c[3]);
 
     //
-    //
+    // Entrada de dados para as quatro cidades do estado D
     //
 
-    printf("Insira os dados do estado D.\n");
+    printf("\nInsira os dados do estado D.\n");
 
     printf("\nInsira a quantidade de população da cidade 1: ");
     scanf("%d", &populacao_d[0]);
@@ -217,10 +229,182 @@ int main() {
     printf("Insira a quantidade de pontos turisticos da cidade 4: ");
     scanf("%d", &p_turisticos_d[3]);
 
+    //
+    // Entrada de dados para as quatro cidades do estado E
+    //
+
+    printf("\nInsira os dados do estado E.\n");
+
+    printf("\nInsira a quantidade de população da cidade 1: ");
+    scanf("%d", &populacao_e[0]);
+    printf("Insira a área da cidade 1: ");
+    scanf("%d", &area_e[0]);
+    printf("Insira o valor do PIB da cidade 1: ");
+    scanf("%d", &pib_e[0]);
+    printf("Insira a quantidade de pontos turisticos da cidade 1: ");
+    scanf("%d", &p_turisticos_e[0]);
+
+    printf("\nInsira a quantidade de população da cidade 2: ");
+    scanf("%d", &populacao_e[1]);
+    printf("Insira a área da cidade 2: ");
+    scanf("%d", &area_e[1]);
+    printf("Insira o valor do PIB da cidade 2: ");
+    scanf("%d", &pib_e[1]);
+    printf("Insira a quantidade de pontos turisticos da cidade 2: ");
+    scanf("%d", &p_turisticos_e[1]);
+
+    printf("\nInsira a quantidade de população da cidade 3: ");
+    scanf("%d", &populacao_e[2]);
+    printf("Insira a área da cidade 3: ");
+    scanf("%d", &area_e[2]);
+    printf("Insira o valor do PIB da cidade 3: ");
+    scanf("%d", &pib_e[2]);
+    printf("Insira a quantidade de pontos turisticos da cidade 3: ");
+    scanf("%d", &p_turisticos_e[2]);
+
+    printf("\nInsira a quantidade de população da cidade 4: ");
+    scanf("%d", &populacao_e[3]);
+    printf("Insira a área da cidade 4: ");
+    scanf("%d", &area_e[3]);
+    printf("Insira o valor do PIB da cidade 4: ");
+    scanf("%d", &pib_e[3]);
+    printf("Insira a quantidade de pontos turisticos da cidade 4: ");
+    scanf("%d", &p_turisticos_e[3]);
+
+    //
+    // Entrada de dados para as quatro cidades do estado F
+    //
+
+    printf("\nInsira os dados do estado F.\n");
+
+    printf("\nInsira a quantidade de população da cidade 1: ");
+    scanf("%d", &populacao_f[0]);
+    printf("Insira a área da cidade 1: ");
+    scanf("%d", &area_f[0]);
+    printf("Insira o valor do PIB da cidade 1: ");
+    scanf("%d", &pib_f[0]);
+    printf("Insira a quantidade de pontos turisticos da cidade 1: ");
+    scanf("%d", &p_turisticos_f[0]);
+
+    printf("\nInsira a quantidade de população da cidade 2: ");
+    scanf("%d", &populacao_f[1]);
+    printf("Insira a área da cidade 2: ");
+    scanf("%d", &area_f[1]);
+    printf("Insira o valor do PIB da cidade 2: ");
+    scanf("%d", &pib_f[1]);
+    printf("Insira a quantidade de pontos turisticos da cidade 2: ");
+    scanf("%d", &p_turisticos_f[1]);
+
+    printf("\nInsira a quantidade de população da cidade 3: ");
+    scanf("%d", &populacao_f[2]);
+    printf("Insira a área da cidade 3: ");
+    scanf("%d", &area_f[2]);
+    printf("Insira o valor do PIB da cidade 3: ");
+    scanf("%d", &pib_f[2]);
+    printf("Insira a quantidade de pontos turisticos da cidade 3: ");
+    scanf("%d", &p_turisticos_f[2]);
+
+    printf("\nInsira a quantidade de população da cidade 4: ");
+    scanf("%d", &populacao_f[3]);
+    printf("Insira a área da cidade 4: ");
+    scanf("%d", &area_f[3]);
+    printf("Insira o valor do PIB da cidade 4: ");
+    scanf("%d", &pib_f[3]);
+    printf("Insira a quantidade de pontos turisticos da cidade 4: ");
+    scanf("%d", &p_turisticos_f[3]);
+
+    //
+    // Entrada de dados para as quatro cidades do estado G
+    //
+
+    printf("\nInsira os dados do estado G.\n");
+
+    printf("\nInsira a quantidade de população da cidade 1: ");
+    scanf("%d", &populacao_g[0]);
+    printf("Insira a área da cidade 1: ");
+    scanf("%d", &area_g[0]);
+    printf("Insira o valor do PIB da cidade 1: ");
+    scanf("%d", &pib_g[0]);
+    printf("Insira a quantidade de pontos turisticos da cidade 1: ");
+    scanf("%d", &p_turisticos_g[0]);
+
+    printf("\nInsira a quantidade de população da cidade 2: ");
+    scanf("%d", &populacao_g[1]);
+    printf("Insira a área da cidade 2: ");
+    scanf("%d", &area_g[1]);
+    printf("Insira o valor do PIB da cidade 2: ");
+    scanf("%d", &pib_g[1]);
+    printf("Insira a quantidade de pontos turisticos da cidade 2: ");
+    scanf("%d", &p_turisticos_g[1]);
+
+    printf("\nInsira a quantidade de população da cidade 3: ");
+    scanf("%d", &populacao_g[2]);
+    printf("Insira a área da cidade 3: ");
+    scanf("%d", &area_g[2]);
+    printf("Insira o valor do PIB da cidade 3: ");
+    scanf("%d", &pib_g[2]);
+    printf("Insira a quantidade de pontos turisticos da cidade 3: ");
+    scanf("%d", &p_turisticos_g[2]);
+
+    printf("\nInsira a quantidade de população da cidade 4: ");
+    scanf("%d", &populacao_g[3]);
+    printf("Insira a área da cidade 4: ");
+    scanf("%d", &area_g[3]);
+    printf("Insira o valor do PIB da cidade 4: ");
+    scanf("%d", &pib_g[3]);
+    printf("Insira a quantidade de pontos turisticos da cidade 4: ");
+    scanf("%d", &p_turisticos_g[3]);
+
+    //
+    // Entrada de dados para as quatro cidades do estado H
+    //
+
+    printf("\nInsira os dados do estado H.\n");
+
+    printf("\nInsira a quantidade de população da cidade 1: ");
+    scanf("%d", &populacao_h[0]);
+    printf("Insira a área da cidade 1: ");
+    scanf("%d", &area_h[0]);
+    printf("Insira o valor do PIB da cidade 1: ");
+    scanf("%d", &pib_h[0]);
+    printf("Insira a quantidade de pontos turisticos da cidade 1: ");
+    scanf("%d", &p_turisticos_h[0]);
+
+    printf("\nInsira a quantidade de população da cidade 2: ");
+    scanf("%d", &populacao_h[1]);
+    printf("Insira a área da cidade 2: ");
+    scanf("%d", &area_h[1]);
+    printf("Insira o valor do PIB da cidade 2: ");
+    scanf("%d", &pib_h[1]);
+    printf("Insira a quantidade de pontos turisticos da cidade 2: ");
+    scanf("%d", &p_turisticos_h[1]);
+
+    printf("\nInsira a quantidade de população da cidade 3: ");
+    scanf("%d", &populacao_h[2]);
+    printf("Insira a área da cidade 3: ");
+    scanf("%d", &area_h[2]);
+    printf("Insira o valor do PIB da cidade 3: ");
+    scanf("%d", &pib_h[2]);
+    printf("Insira a quantidade de pontos turisticos da cidade 3: ");
+    scanf("%d", &p_turisticos_h[2]);
+
+    printf("\nInsira a quantidade de população da cidade 4: ");
+    scanf("%d", &populacao_h[3]);
+    printf("Insira a área da cidade 4: ");
+    scanf("%d", &area_h[3]);
+    printf("Insira o valor do PIB da cidade 4: ");
+    scanf("%d", &pib_h[3]);
+    printf("Insira a quantidade de pontos turisticos da cidade 4: ");
+    scanf("%d", &p_turisticos_h[3]);
+
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
     
+    //
+    // Mostrando as informações das quatro cidades do estado A
+    //
+
     printf("\nEstado A:\n\n");
 
     printf("População cidade A1: %d \n", populacao_a[0]);
@@ -244,7 +428,7 @@ int main() {
     printf("Pontos turisticos cidade A4: %d \n\n", p_turisticos_a[3]);
 
     //
-    //
+    // Mostrando as informações das quatro cidades do estado B
     //
 
     printf("\nEstado B:\n\n");
@@ -270,7 +454,7 @@ int main() {
     printf("Pontos turisticos cidade B4: %d \n\n", p_turisticos_b[3]);
 
     //
-    //
+    // Mostrando as informações das quatro cidades do estado C
     //
 
     printf("\nEstado C:\n\n");
@@ -296,7 +480,7 @@ int main() {
     printf("Pontos turisticos cidade C4: %d \n\n", p_turisticos_c[3]);
 
     //
-    //
+    // Mostrando as informações das quatro cidades do estado D
     //
 
     printf("\nEstado D:\n\n");
@@ -320,6 +504,110 @@ int main() {
     printf("Área cidade D4: %d \n", area_d[3]);
     printf("PIB cidade D4: %d \n", pib_d[3]);
     printf("Pontos turisticos cidade D4: %d \n\n", p_turisticos_d[3]);
+
+    //
+    // Mostrando as informações das quatro cidades do estado E
+    //
+
+    printf("\nEstado E:\n\n");
+
+    printf("População cidade E1: %d \n", populacao_e[0]);
+    printf("Área cidade E1: %d \n", area_e[0]);
+    printf("PIB cidade E1: %d \n", pib_e[0]);
+    printf("Pontos turisticos cidade E1: %d \n\n", p_turisticos_e[0]);
+
+    printf("População cidade E2: %d \n", populacao_e[1]);
+    printf("Área cidade E2: %d \n", area_e[1]);
+    printf("PIB cidade E2: %d \n", pib_e[1]);
+    printf("Pontos turisticos cidade E2: %d \n\n", p_turisticos_e[1]);
+
+    printf("População cidade E3: %d \n", populacao_e[2]);
+    printf("Área cidade E3: %d \n", area_e[2]);
+    printf("PIB cidade E3: %d \n", pib_e[2]);
+    printf("Pontos turisticos cidade E3: %d \n\n", p_turisticos_e[2]);
+
+    printf("População cidade E4: %d \n", populacao_e[3]);
+    printf("Área cidade E4: %d \n", area_e[3]);
+    printf("PIB cidade E4: %d \n", pib_e[3]);
+    printf("Pontos turisticos cidade E4: %d \n\n", p_turisticos_e[3]);
+
+    //
+    // Mostrando as informações das quatro cidades do estado F
+    //
+
+    printf("\nEstado F:\n\n");
+
+    printf("População cidade F1: %d \n", populacao_f[0]);
+    printf("Área cidade F1: %d \n", area_f[0]);
+    printf("PIB cidade F1: %d \n", pib_f[0]);
+    printf("Pontos turisticos cidade F1: %d \n\n", p_turisticos_f[0]);
+
+    printf("População cidade F2: %d \n", populacao_f[1]);
+    printf("Área cidade F2: %d \n", area_f[1]);
+    printf("PIB cidade F2: %d \n", pib_f[1]);
+    printf("Pontos turisticos cidade F2: %d \n\n", p_turisticos_f[1]);
+
+    printf("População cidade F3: %d \n", populacao_f[2]);
+    printf("Área cidade F3: %d \n", area_f[2]);
+    printf("PIB cidade F3: %d \n", pib_f[2]);
+    printf("Pontos turisticos cidade F3: %d \n\n", p_turisticos_f[2]);
+
+    printf("População cidade F4: %d \n", populacao_f[3]);
+    printf("Área cidade F4: %d \n", area_f[3]);
+    printf("PIB cidade F4: %d \n", pib_f[3]);
+    printf("Pontos turisticos cidade F4: %d \n\n", p_turisticos_f[3]);
+
+    //
+    // Mostrando as informações das quatro cidades do estado G
+    //
+
+    printf("\nEstado G:\n\n");
+
+    printf("População cidade G1: %d \n", populacao_g[0]);
+    printf("Área cidade G1: %d \n", area_g[0]);
+    printf("PIB cidade G1: %d \n", pib_g[0]);
+    printf("Pontos turisticos cidade G1: %d \n\n", p_turisticos_g[0]);
+
+    printf("População cidade G2: %d \n", populacao_g[1]);
+    printf("Área cidade G2: %d \n", area_g[1]);
+    printf("PIB cidade G2: %d \n", pib_g[1]);
+    printf("Pontos turisticos cidade G2: %d \n\n", p_turisticos_g[1]);
+
+    printf("População cidade G3: %d \n", populacao_g[2]);
+    printf("Área cidade G3: %d \n", area_g[2]);
+    printf("PIB cidade G3: %d \n", pib_g[2]);
+    printf("Pontos turisticos cidade G3: %d \n\n", p_turisticos_g[2]);
+
+    printf("População cidade G4: %d \n", populacao_g[3]);
+    printf("Área cidade G4: %d \n", area_g[3]);
+    printf("PIB cidade G4: %d \n", pib_g[3]);
+    printf("Pontos turisticos cidade G4: %d \n\n", p_turisticos_g[3]);
+
+    //
+    // Mostrando as informações das quatro cidades do estado H
+    //
+
+    printf("\nEstado H:\n\n");
+
+    printf("População cidade H1: %d \n", populacao_h[0]);
+    printf("Área cidade H1: %d \n", area_h[0]);
+    printf("PIB cidade H1: %d \n", pib_h[0]);
+    printf("Pontos turisticos cidade H1: %d \n\n", p_turisticos_h[0]);
+
+    printf("População cidade H2: %d \n", populacao_h[1]);
+    printf("Área cidade H2: %d \n", area_h[1]);
+    printf("PIB cidade H2: %d \n", pib_h[1]);
+    printf("Pontos turisticos cidade H2: %d \n\n", p_turisticos_h[1]);
+
+    printf("População cidade H3: %d \n", populacao_h[2]);
+    printf("Área cidade H3: %d \n", area_h[2]);
+    printf("PIB cidade H3: %d \n", pib_h[2]);
+    printf("Pontos turisticos cidade H3: %d \n\n", p_turisticos_h[2]);
+
+    printf("População cidade H4: %d \n", populacao_h[3]);
+    printf("Área cidade H4: %d \n", area_h[3]);
+    printf("PIB cidade H4: %d \n", pib_h[3]);
+    printf("Pontos turisticos cidade H4: %d \n\n", p_turisticos_h[3]);
 
     return 0;
 }
